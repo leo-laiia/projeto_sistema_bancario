@@ -1,4 +1,3 @@
-#exemplo de código
 menu = """
 Selecione a opção desejada:
 [1] Depositar
