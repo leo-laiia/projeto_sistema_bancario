@@ -59,7 +59,7 @@ while True:
              print("Você excedeu o número máximo de saques diário.")
         
         elif valor_saque > limite:
-             print("Você excedeu o limite de R$500,00 de saque diário.")
+             print("Você excedeu o limite de saque diário.")
         
         elif valor_saque <= saldo:
              quantidade_de_saques += 1
