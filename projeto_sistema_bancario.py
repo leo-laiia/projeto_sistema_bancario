@@ -36,7 +36,7 @@ while True:
             
     
     elif opcao == "2":
-     print(saldo)
+        
      if saldo <= 0:
        print("Você não possui saldo suficiente para sacar.")
        
