@@ -49,7 +49,7 @@ while True:
               valor_deposito = float(input(f"\n\tInsira o valor para depósito:\n"))
               transacoes += 1
               saldo += valor_deposito
-              extrato += f"\tDepósito: R$ {valor_deposito:.2f} [Horário da transação realizada: {data_transacao.strftime("%d/%m/%y %H:%M")}]\n"
+              extrato += f"\tDepósito: R$ {valor_deposito:.2f} [Horário da transação realizada: {data_transacao.strftime("%d/%m/%Y %H:%M")}]\n"
               print(f"\n\tVocê depositou o valor de: R${valor_deposito:.2f}")
             
     elif opcao == "2":    
